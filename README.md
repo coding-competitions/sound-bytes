@@ -4,7 +4,7 @@
 
 Write a complete program, in the language of your choice, in **512** bytes or less of source code, the output of which can be interpretted as a raw audio waveform. The output may either be directed to `stdout` a file name specified by command line parameters. Your program must also terminate by itself after approximately 30 seconds worth of raw data has been produced. If your program relies on external data, libraries, or command line arguments or switches (excluding the filename or wave format parameters) in order to produce the appropriate output, these will be counted toward the 512 byte limit.
 
-The program must be accompanied `README.md` which contains the title for the submission, the name of the contestant, the language(s) used, the total number of source bytes, and briefly describes the program. The `README` must specify the sample rate (in Hz or kHz), number of channels, and sample size in bits (either 8, 16, 24, 32, or 64), and encoding type (either signed integer, unsigned integer, or floating-point) of the raw waveform produced by your program. If the output of the program is non-deterministic (e.g. randomly generated), be sure to make note of that as well.
+The program must be accompanied `README.md` which contains the title for the submission, the name of the contestant, the language(s) used, the total number of source bytes, and briefly describes the program. The `README.md` must specify the sample rate (in Hz or kHz), number of channels, and sample size in bits (either 8, 16, 24, 32, or 64), and encoding type (either signed integer, unsigned integer, or floating-point) of the raw waveform produced by your program. If the output of the program is non-deterministic (e.g. randomly generated), be sure to make note of that as well.
 
 ### Utilities
 
@@ -21,9 +21,7 @@ The following example submissions have been provided:
 
 ## Submissions
 
-Start off by forking this repo.
-
-To submit an entry to this competition, you must first create an issue with the same title as that appears in your submission's `README`. Then, create a PR which adds your entry under the `entries` folder in the git repo.
+To submit an entry to this competition, start off by forking this repo. Create a new subdirectory under `entries/` to house your entry, and develop your code under there. Write a `README.md` file which includes the relevant information as described in [Challenge](#Challenge). Once you're satisfied with the results, submit a pull request to have your entry merged in with the others.
 
 Contestants may submit multiple entries.
 
@@ -33,10 +31,12 @@ Entries must be submitted as an issue before Friday, Nov 30, 2018.
 
 ## Judging
 
-This is a *subjective* competition. The winner will be decided by popular vote.
+This is a **subjective** competition, meaning the winner will be decided by popular vote. Any eligible voter is welcome vote on any accepted enter, *including their own*. 
 
-Anyone who submitted an entry that was accepted is welcome vote on any accepted enter, *including their own*.
+Voting method is TBD.
 
-Voting is done by adding a ❤️ reaction to the issue in which the enty was submitted. Eligible voters may vote on any number of entries. Reactions added by non-eligible voters will not be considered for the purposes of vote counting. The cut-off date for votes shall be Friday, Dec 7, 2018.
+Anyone who submitted an entry that was accepted 
+
+The final vote count shall be taken on Friday, Dec 7, 2018. Votes submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the event of a tie, the entry with the fewer source bytes shall be declared the winner.
