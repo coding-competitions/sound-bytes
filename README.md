@@ -17,7 +17,7 @@ The following example submissions have been provided:
 | Name | Language | Source Bytes |
 |-|-|-|
 | [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 300 bytes |
-| [Crickets from Outer Space](examples/cs/README.md) | C# | 399 bytes |
+| [Crickets from Outer Space](examples/cs/README.md) | C# | 418 bytes |
 
 ## Submissions
 
