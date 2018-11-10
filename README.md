@@ -19,7 +19,7 @@ The following example submissions have been provided:
 | [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 294 bytes |<audio controls src="examples/js/out.ogg"><a href="examples/js/out.ogg">click here</a></audio> |
 | [Crickets from Outer Space](examples/cs/README.md) | C# | 399 bytes | <audio controls src="examples/cs/out.ogg"><a href="examples/cs/out.ogg">click here</a></audio> |
 
-{% include entries_table entries=site.examples %}
+{% include entries_table.html entries=site.examples %}
 
 ## Submissions
 
