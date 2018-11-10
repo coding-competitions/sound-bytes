@@ -9,16 +9,17 @@
   </thead>
   <tbody>
   {% for example in site.examples %}
+    {% assign dir = example.id | remove '/README' %}
     <td>
-      <a href="{{ example.dir }}">
+      <a href="{{ dir }}">
         {{ example.title }}
       </a>
     </td>
     <td>{{ entry.lang }}</td>
     <td>{{ entry.len }}</td>
     <td>
-      <audio controls src="{{ example.dir }}/out.ogg">
-        <a href="{{ example.dir }}/out.ogg" target="_blank">click here</a>
+      <audio controls src="{{ dir }}/out.ogg">
+        <a href="{{ dir }}/out.ogg" target="_blank">click here</a>
       </audio>
     </td>
   {% endfor %}
