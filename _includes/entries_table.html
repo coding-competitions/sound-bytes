@@ -1,17 +1,16 @@
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Language</th>
-      <th>Bytes</th>
-      <th>Listen</th>
+      <th>Entry</th>
+      <th>Path</th>
     </tr>
   </thead>
   <tbody>
   {% for entry in include.entries %}
     {% capture path %}{{ include.path }}/{{ entry }}{% endcapture %}
     <tr>
-      {% include_relative {{ path }} layout="entry_tr" %}
+      <td>{{entry}}</td>
+      <td>{{path}}</td>
     </tr>
   {% endfor %}
   </tbody>
