@@ -12,11 +12,11 @@ For consistency, all entries will be evaluated with the [SoX utility](http://sox
 
 ### Examples
 
-The following example submissions have been provided:
+The following example submissions have been provided:\
 
 | Name | Language | Source Bytes | Output |
-|-|-|-|
-| [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 294 bytes | <audio controls src="examples/js/out.ogg"></audio> |
+|-|-|-|-|
+| [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 294 bytes |<audio controls src="examples/js/out.ogg"></audio> |
 | [Crickets from Outer Space](examples/cs/README.md) | C# | 399 bytes | <audio controls src="examples/cs/out.ogg"></audio> |
 
 ## Submissions
