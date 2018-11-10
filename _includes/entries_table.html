@@ -8,21 +8,24 @@
     </tr>
   </thead>
   <tbody>
-  {% for example in site.examples %}
-    {% assign url_array = example.url | split: "/" %}
-    {% assign id = url_array[1] %}
-    <td>
-      <a href="examples/{{ id }}">
-        {{ example.title }}
-      </a>
-    </td>
-    <td>{{ entry.lang }}</td>
-    <td>{{ entry.len }}</td>
-    <td>
-      <audio controls src="examples/{{ id }}/out.ogg">
-        <a href="examples/{{ id }}/out.ogg" target="_blank">click here</a>
-      </audio>
-    </td>
+  {% for entry in include.entries %}
+    {% assign url_array = entry.url | split: "/" %}
+    {% assign col = url_array[1] %}
+    {% assign id = url_array[2] %}
+    <tr>
+      <td>
+        <a href="{{ col }}/{{ id }}">
+          {{ entry.title }}
+        </a>
+      </td>
+      <td>{{ entry.lang }}</td>
+      <td>{{ entry.len }}</td>
+      <td>
+        <audio controls src="{{ col }}/{{ id }}/out.ogg">
+          <a href="{{ col }}/{{ id }}/out.ogg" target="_blank">click here</a>
+        </audio>
+      </td>
+    </tr>
   {% endfor %}
   </tbody>
 </table>
