@@ -1,6 +1,13 @@
 # Constant Spectrum Melody (JavaScript, 294 bytes)
 
-[Constant Spectrum Melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) Generator for NodeJs.
+> **Listen**:  
+<audio controls src="out.ogg">
+  <a href="out.ogg" target="_blank">click here</a>
+</audio>
+> 
+> ![Spectrogram](spectrogram.png)
+
+[Constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator for NodeJs.
 
 * Sample rate: 44.1 kHz
 * Sample size: 32 bits
