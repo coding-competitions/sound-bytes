@@ -8,11 +8,19 @@
     </tr>
   </thead>
   <tbody>
-  {% for entry in include.entries %}
-    {% capture path %}{{ include.path }}/{{ entry }}/README.md{% endcapture %}
-    <tr>
-      {% include_relative {{ path }} layout="entry_tr" %}
-    </tr>
+  {% for example in site.examples %}
+    <td>
+      <a href="{{ example.url }}">
+        {{ example.title }}
+      </a>
+    </td>
+    <td>{{ entry.lang }}</td>
+    <td>{{ entry.len }}</td>
+    <td>
+      <audio controls src="{{ example.url }}/out.ogg">
+        <a href="{{ example.url }}/out.ogg" target="_blank">click here</a>
+      </audio>
+    </td>
   {% endfor %}
   </tbody>
 </table>
