@@ -9,9 +9,9 @@
   </thead>
   <tbody>
   {% for entry in include.entries %}
-    {% capture subpath %}examples/{{ entry }}{% endcapture %}
+    {% capture path %}{{ include.path }}/{{ entry }}{% endcapture %}
     <tr>
-      {% include {{ subpath }} layout="entry_tr" %}
+      {% include_relative {{ path }} layout="entry_tr" %}
     </tr>
   {% endfor %}
   </tbody>
