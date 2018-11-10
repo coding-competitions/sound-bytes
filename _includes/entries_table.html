@@ -1,14 +1,14 @@
 <table>
   <thead>
     <tr>
-      <td>Title</td>
-      <td>Language</td>
-      <td>Bytes</td>
-      <td>Listen</td>
+      <th>Title</th>
+      <th>Language</th>
+      <th>Bytes</th>
+      <th>Listen</th>
     </tr>
   </thead>
   <tbody>
-  {% for entry in entries %}
+  {% for entry in include.entries %}
     {% capture subpath %}examples/{{ entry }}{% endcapture %}
     <tr>
       {% include {{ subpath }} layout="entry_tr" %}
