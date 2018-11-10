@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Crickets from Outer Space
-lang: C#
-len: 399
+title: Constant spectrum melody
+lang: JavaScript
+len: 294
 params:
   r: 44100
   b: 32
