@@ -1,5 +1,6 @@
 theme: jekyll-theme-hacker
 collections:
   examples:
+    output: true
     lang: true
     len: true
