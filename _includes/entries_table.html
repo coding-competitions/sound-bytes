@@ -10,15 +10,15 @@
   <tbody>
   {% for example in site.examples %}
     <td>
-      <a href="{{ example.url }}">
+      <a href="{{ example.id }}">
         {{ example.title }}
       </a>
     </td>
     <td>{{ entry.lang }}</td>
     <td>{{ entry.len }}</td>
     <td>
-      <audio controls src="{{ example.url }}/out.ogg">
-        <a href="{{ example.url }}/out.ogg" target="_blank">click here</a>
+      <audio controls src="{{ example.id }}/out.ogg">
+        <a href="{{ example.id }}/out.ogg" target="_blank">click here</a>
       </audio>
     </td>
   {% endfor %}
