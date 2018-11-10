@@ -9,16 +9,18 @@
   </thead>
   <tbody>
   {% for example in site.examples %}
+    {% assign url_array = example.url | split: "/" %}
+    {% assign id = url_array[1] %}
     <td>
-      <a href="{{ example.id | remove "/README" }}">
+      <a href="examples/{{ id }}">
         {{ example.title }}
       </a>
     </td>
     <td>{{ entry.lang }}</td>
     <td>{{ entry.len }}</td>
     <td>
-      <audio controls src="{{ example.id | remove "/README" }}/out.ogg">
-        <a href="{{ example.id | remove "/README" }}/out.ogg" target="_blank">click here</a>
+      <audio controls src="examples/{{ id }}/out.ogg">
+        <a href="examples/{{ id }}/out.ogg" target="_blank">click here</a>
       </audio>
     </td>
   {% endfor %}
