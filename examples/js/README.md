@@ -1,4 +1,4 @@
-# Constant Spectrum Melody (JavaScript, 300 bytes)
+# Constant Spectrum Melody (JavaScript, 294 bytes)
 
 [Constant Spectrum Melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) Generator for NodeJs.
 

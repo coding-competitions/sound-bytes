@@ -1,6 +1,6 @@
-# Crickets from Outer Space (C#, 418 bytes)
+# Crickets from Outer Space (C#, 399 bytes)
 
-A sample submission written in C#.
+Some sweet serenade by spectral stenopelmata—an example submission written in C#.
 
 * Sample rate: 44.1 kHz
 * Sample size: 16 bits

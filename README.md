@@ -8,7 +8,7 @@ The program must be accompanied `README.md` which contains the title for the sub
 
 ### Utilities
 
-For consistency, is *highly* recommended that you use `sox` or the included docker image, also named `sox` to convert raw data to `ogg`.
+For consistency, all entries will be evaluated with the [SoX utility](http://sox.sourceforge.net/). This may be installed locally on most systems, *or* if you prefer not to install it locally, you can use the provided [Docker image](util/sox/README.md).
 
 ### Examples
 
@@ -16,8 +16,8 @@ The following example submissions have been provided:
 
 | Name | Language | Source Bytes |
 |-|-|-|
-| [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 300 bytes |
-| [Crickets from Outer Space](examples/cs/README.md) | C# | 418 bytes |
+| [Constant Spectrum Melody](examples/js/README.md) | JavaScript | 294 bytes |
+| [Crickets from Outer Space](examples/cs/README.md) | C# | 399 bytes |
 
 ## Submissions
 
@@ -40,3 +40,11 @@ Anyone who submitted an entry that was accepted
 The final vote count shall be taken on Friday, Dec 7, 2018. Votes submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the event of a tie, the entry with the fewer source bytes shall be declared the winner.
+
+## Awards
+
+The contestant that submitted the winning entry shall be awarded this :sparkles:shiny:sparkles: badge!
+
+<p align="center">
+  <img alt="badge" src="badge-preview.png">
+</p>
