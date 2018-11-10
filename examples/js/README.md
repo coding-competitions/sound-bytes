@@ -1,11 +1,7 @@
 # Constant Spectrum Melody (JavaScript, 294 bytes)
 
-> **Listen**:  
-<audio controls src="out.ogg">
-  <a href="out.ogg" target="_blank">click here</a>
-</audio>
-> 
-> ![Spectrogram](spectrogram.png)
+> **Listen:**
+> <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
 
 [Constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator for NodeJs.
 
@@ -21,3 +17,5 @@ To run this sample, execute one of the following commands:
 
     # docker version
     node . | docker run --rm -i sox -t raw -r 44100 -b 32 -c 1 -e f - -t ogg -> out.ogg
+
+![Spectrogram](spectrogram.png)
