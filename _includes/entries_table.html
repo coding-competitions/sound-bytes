@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Language</td>
+      <td>Bytes</td>
+      <td>Listen</td>
+    </tr>
+  </thead>
+  <tbody>
+  {% for entry in entries %}
+    {% capture subpath %}examples/{{ entry }}{% endcapture %}
+    <tr>
+      {% include {{ subpath }} layout="entry_tr" %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

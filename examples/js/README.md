@@ -1,21 +1,16 @@
-# Constant Spectrum Melody (JavaScript, 294 bytes)
+---
+layout: post
+title: Crickets from Outer Space
+lang: C#
+len: 399
+params:
+  r: 44100
+  b: 32
+  c: 1
+  e: f
+  build: node .
+---
 
-> **Listen:**
-> <audio controls src="out.ogg"><a href="out.ogg">click here</a></audio>
+A [constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator.
 
-[Constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator for NodeJs.
-
-* Sample rate: 44.1 kHz
-* Sample size: 32 bits
-* Channels: 1 (monaural)
-* Encoding: floating-point
-
-To run this sample, execute one of the following commands:
-
-    # native version
-    node . | sox -t raw -r 44100 -b 32 -c 1 -e f - -t ogg out.ogg
-
-    # docker version
-    node . | docker run --rm -i sox -t raw -r 44100 -b 32 -c 1 -e f - -t ogg -> out.ogg
-
-![Spectrogram](spectrogram.png)
+This is an example submission written in JavaScript / Node.js.
