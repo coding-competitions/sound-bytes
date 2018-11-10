@@ -1,7 +1,7 @@
 # Constant Spectrum Melody (JavaScript, 294 bytes)
 
 > **Listen:**
-> <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
+> <audio controls src="out.ogg"><a href="out.ogg">click here</a></audio>
 
 [Constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator for NodeJs.
 

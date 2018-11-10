@@ -1,5 +1,8 @@
 # Crickets from Outer Space (C#, 399 bytes)
 
+> **Listen:**
+> <audio controls src="out.ogg"><a href="out.ogg">click here</a></audio>
+
 Some sweet serenade by spectral stenopelmata—an example submission written in C#.
 
 * Sample rate: 44.1 kHz
@@ -18,3 +21,5 @@ From then on, the sample code can be compiled from the command line with one of 
 
     # docker version
     dotnet run | docker run --rm -i sox -t raw -r 44100 -b 16 -c 2 -e un - -t ogg -> out.ogg
+
+![Spectrogram](spectrogram.png)
