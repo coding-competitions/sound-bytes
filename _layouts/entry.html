@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<quote>
+  <audio controls src="{{ col }}/{{ id }}/out.ogg">
+    <a href="{{ col }}/{{ id }}/out.ogg" target="_blank">click here</a>
+  </audio>
+</quote>
+
+{% if page.author %}
+  <p class="view">by {{ page.author }}</p>
+{% endif %}
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+
+<h4>Parameters:</h4>
+  <table>
+    <tbody>
+      <tr>
+        <th>Sample Rate:</th>
+        <td>{% page.params.r %} Hz</td>
+      </tr>
+      <tr>
+        <th>Sample Size:</th>
+        <td>{% page.params.b %} bits</td>
+      </tr>
+      <tr>
+        <th>Sample Size:</th>
+        <td>{% page.params.c %}
+            {% if page.params.c == 1 %}(mono){% endif %}
+            {% if page.params.c == 2 %}(stereo){% endif %}
+            {% if page.params.c > 2 %}(surround){% endif %}
+        </td>
+      </tr>
+  </tbody>
+</table>
+
+{% if page.commands %}
+<h4>Commands:</h4>
+  {% if page.commands.build %}
+    <p>Build</p>
+    <pre>
+      <code>{% page.commands.build %}</code>
+    </pre>
+  {% endif %}
+  {% if page.commands.run %}
+    <p>Run</p>
+    <pre>
+      <code>{% page.commands.run %}</code>
+    </pre>
+  {% endif %}
+</table>
+{% endif %}
+
+<h4>Spectrogram</h4>
+<p align="content">
+  <img alt="Spectrogram" src="spectrogram.png">
+</p>

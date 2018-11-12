@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: entry
 title: Constant spectrum melody
+author: Patrick Kohler
 lang: JavaScript
 len: 294
 params:
@@ -8,7 +9,8 @@ params:
   b: 32
   c: 1
   e: f
-  build: node .
+commands:
+  run: node .
 ---
 
 A [constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator.
