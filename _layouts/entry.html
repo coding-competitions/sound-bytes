@@ -4,19 +4,18 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<blockquote>
-  <p><em>Listen:</em>
-    <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
-  </p>
-</blockquote>
-
 {% if page.author %}
   <p class="view">by {{ page.author }}</p>
 {% endif %}
 
+<h2>
+  Listen:
+  <audio controls src="out.ogg" style="vertical-align: middle"><a href="out.ogg" target="_blank">click here</a></audio>
+</h2>
+
 {{content}}
 
-<h4>Parameters:</h4>
+<h3>Parameters</h3>
   <table>
     <tbody>
       <tr>
@@ -50,7 +49,7 @@ layout: default
 </table>
 
 {% if page.commands %}
-<h4>Commands:</h4>
+<h3>Commands</h3>
   {% if page.commands.build %}
     <p>Build</p>
     <pre><code>{{ page.commands.build }}</code></pre>
@@ -62,7 +61,7 @@ layout: default
 </table>
 {% endif %}
 
-<h4>Spectrogram</h4>
+<h3>Spectrogram</h3>
 <p align="content">
   <img alt="Spectrogram" src="spectrogram.png">
 </p>
