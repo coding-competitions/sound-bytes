@@ -35,8 +35,8 @@ layout: default
         <td>Channels:</td>
         <td>{{ page.params.c }}
             {% if page.params.c == 1 %}(mono)
-            {% elseif page.params.c == 2 %}(stereo)
-            {% elseif page.params.c > 2 %}(surround)
+            {% elsif page.params.c == 2 %}(stereo)
+            {% elsif page.params.c > 2 %}(surround)
             {% endif %}
         </td>
       </tr>
@@ -44,8 +44,8 @@ layout: default
         <td>Encoding:</td>
         <td>
             {% if page.params.e == "si" %}signed-integer
-            {% elseif page.params.e == "un" %}unsigned-integer
-            {% elseif page.params.e == "fl" %}floating-point
+            {% elsif page.params.e == "un" %}unsigned-integer
+            {% elsif page.params.e == "fl" %}floating-point
             {% else %}{{ page.params.e }}
             {% endif %}
         </td>
