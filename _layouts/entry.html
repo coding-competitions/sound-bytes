@@ -4,21 +4,17 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<quote>
-  <audio controls src="{{ col }}/{{ id }}/out.ogg">
-    <a href="{{ col }}/{{ id }}/out.ogg" target="_blank">click here</a>
-  </audio>
-</quote>
+<blockquote>
+  <p><em>Listen:</em>
+    <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
+  </p>
+</blockquote>
 
 {% if page.author %}
   <p class="view">by {{ page.author }}</p>
 {% endif %}
 
 {{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
 
 <h4>Parameters:</h4>
   <table>
