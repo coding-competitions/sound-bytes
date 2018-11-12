@@ -25,15 +25,15 @@ layout: default
     <tbody>
       <tr>
         <th>Sample Rate:</th>
-        <td>{% page.params.r %} Hz</td>
+        <td>{{ page.params.r }} Hz</td>
       </tr>
       <tr>
         <th>Sample Size:</th>
-        <td>{% page.params.b %} bits</td>
+        <td>{{ page.params.b }} bits</td>
       </tr>
       <tr>
         <th>Sample Size:</th>
-        <td>{% page.params.c %}
+        <td>{{ page.params.c }}
             {% if page.params.c == 1 %}(mono){% endif %}
             {% if page.params.c == 2 %}(stereo){% endif %}
             {% if page.params.c > 2 %}(surround){% endif %}
@@ -47,13 +47,13 @@ layout: default
   {% if page.commands.build %}
     <p>Build</p>
     <pre>
-      <code>{% page.commands.build %}</code>
+      <code>{{ page.commands.build }}</code>
     </pre>
   {% endif %}
   {% if page.commands.run %}
     <p>Run</p>
     <pre>
-      <code>{% page.commands.run %}</code>
+      <code>{{ page.commands.run }}</code>
     </pre>
   {% endif %}
 </table>
