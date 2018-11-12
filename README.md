@@ -22,19 +22,19 @@ The program must be accompanied by a `README.md` file which contains the
 information required to interpret the waveform, in the following format:
 
     ---
-    layout: {{ entry }}
-    title: {{ title }}
-    author: {{ author name or github username }}
-    lang: {{ language }}
-    len: {{ total length in bytes }}
+    layout: { entry }
+    title: { title }
+    author: { author name or github username }
+    lang: { language }
+    len: { total length in bytes }
     params:
-      r: {{ sample rate in Hz }}
-      b: {{ sample size in bits }}
-      c: {{ number of channels: 1 = mono, 2 = stereo }}
-      e: {{ encoding: (si)gned-integer, (un)signed-integer, (fl)oating-point }}
+      r: { sample rate in Hz }
+      b: { sample size in bits }
+      c: { number of channels: 1 = mono, 2 = stereo }
+      e: { encoding: (si)gned-integer, (un)signed-integer, (fl)oating-point }
     commands:
-      build: {{ command needed to build the program (if needed) }}
-      run: {{ command needed to run the program }}
+      build: { command needed to build the program (if needed) }
+      run: { command needed to run the program }
     ---
 
     {{ description of the entry in markdown }}
