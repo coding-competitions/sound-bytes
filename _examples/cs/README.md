@@ -14,8 +14,9 @@ commands:
   run: dotnet run
 ---
 
-Some sweet serenade by spectral stenopelmata—an example submission written in 
-C#.
+Some sweet serenade by spectral stenopelmata.
+
+This is an example submission written in C#.
 
 > **Special note regarding .NET Core entries**: If you'd submit an entry using 
 > .NET Core, the associated `*proj` files will not be counted toward the 
