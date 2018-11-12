@@ -8,7 +8,7 @@ params:
   r: 44100
   b: 32
   c: 1
-  e: f
+  e: fl
 commands:
   run: node .
 ---
