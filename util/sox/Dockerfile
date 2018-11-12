@@ -7,4 +7,4 @@ RUN apt-get update && apt-get -y install sox
 VOLUME [ "/data" ]
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/usr/sox" ]
+ENTRYPOINT [ "/usr/bin/sox" ]
