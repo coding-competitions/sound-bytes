@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="PageNavigation">
+  <div class="prev">
+  {% if page.previous.url %}
+    <a href="/musical-code{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  </div>
+  <div class="next">
+  {% if page.next.url %}
+    <a href="/musical-code{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+  </div>
+</div>
+
+<h1>{{ page.title }}</h1>
+
+{% if page.author %}
+  <p class="view">by {{ page.author }}</p>
+{% endif %}
+
+<h2>
+  Listen:
+  <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
+</h2>
+
+{{content}}
+
+<h3>Parameters</h3>
+  <table>
+    <tbody>
+      <tr>
+        <td>Sample Rate:</td>
+        <td>{{ page.params.r }} Hz</td>
+      </tr>
+      <tr>
+        <td>Sample Size:</td>
+        <td>{{ page.params.b }} bits</td>
+      </tr>
+      <tr>
+        <td>Channels:</td>
+        <td>{{ page.params.c }}
+            {% if page.params.c == 1 %}(mono)
+            {% elsif page.params.c == 2 %}(stereo)
+            {% elsif page.params.c > 2 %}(surround)
+            {% endif %}
+        </td>
+      </tr>
+      <tr>
+        <td>Encoding:</td>
+        <td>
+            {% if page.params.e == "si" %}signed-integer
+            {% elsif page.params.e == "un" %}unsigned-integer
+            {% elsif page.params.e == "fl" %}floating-point
+            {% else %}{{ page.params.e }}
+            {% endif %}
+        </td>
+      </tr>
+  </tbody>
+</table>
+
+{% if page.commands %}
+<h3>Commands</h3>
+  {% if page.commands.build %}
+    <p>Build</p>
+    <pre><code>{{ page.commands.build }}</code></pre>
+  {% endif %}
+  {% if page.commands.run %}
+    <p>Run</p>
+    <pre><code>{{ page.commands.run }}</code></pre>
+  {% endif %}
+</table>
+{% endif %}
+
+<h3>Spectrogram</h3>
+<p align="content">
+  <img alt="Spectrogram" src="spectrogram.png">
+</p>

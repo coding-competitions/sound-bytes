@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.ghp-hide { display: none }
+audio { vertical-align: middle }
+
+.PageNavigation {
+  display: flex;
+  .prev {
+    text-align: left;
+    flex: 1 0 auto;
+  }
+  .next {
+    text-align: right;
+    flex: 1 0 auto;
+  }
+}
