@@ -7,15 +7,15 @@
 # Musical Code
 
 You just started work at Goofletronics™, a company that makes electronic toys and 
-gadgets. The project you're working is very late in development, but you on just 
-got a new feature request:
+gadgets. The project you're working is very late in development, but you've just 
+received a new feature request:
 
 >  When the device powers on, it should play an interesting sound or music.
 
-Unfortunately, almost used all the available ROM on chip is currently devoted 
-to other features, so you won't be able to just store a static WAV file to
-play. You're going to have get more creative. Maybe you can generate sound 
-with just a few lines of code…
+Unfortunately, almost all the available ROM on chip is currently devoted to 
+other features, so you won't be able to just store a static WAV file to play. 
+You're going to have get more creative. Maybe you can generate sound with just 
+a few lines of code…
 
 ## Challenge
 
