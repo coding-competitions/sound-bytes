@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Constant spectrum melody
-author: Patrick Kohler
+author: pswg
 lang: JavaScript
 len: 294
 params:

@@ -17,3 +17,33 @@ audio { vertical-align: middle }
     flex: 1 0 auto;
   }
 }
+
+.entries {
+  margin-left: -10px;
+  margin-right: -10px;
+
+  .audio {
+    width: 200px;
+  }
+
+  audio {
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+
+    &::-webkit-media-controls,
+    &::-webkit-media-controls-enclosure,
+    &::-webkit-media-controls-panel {
+      min-height: unset;
+      height: unset;
+      border-radius: unset;
+      padding: 0;
+    }
+    &::-webkit-media-controls-time-remaining-display {
+      display: none
+    }
+    &::-webkit-media-controls-timeline {
+      padding: 5px;
+    }
+  }
+}

@@ -24,7 +24,7 @@ information required to interpret the waveform, in the following format:
     ---
     layout: { entry }
     title: { title }
-    author: { author name or github username }
+    author: { github username }
     lang: { language }
     len: { total length in bytes }
     params:

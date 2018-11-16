@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Crickets from Outer Space
-author: Patrick Kohler
+author: pswg
 lang: C#
 len: 399
 params:
