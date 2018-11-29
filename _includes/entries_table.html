@@ -16,7 +16,7 @@
       {% assign id = url_array[2] %}
       <tr>
         <td>
-          <a href="{{ site.url }}/musical-code/{{ col }}/{{ id }}/README">
+          <a href="{{ site.url }}/{{ col }}/{{ id }}/README">
             {{ entry.title }}
           </a>
         </td>
@@ -24,8 +24,8 @@
         <td>{{ entry.lang }}</td>
         <td>{{ entry.len }}</td>
         <td>
-          <audio controls src="{{ site.url }}/musical-code/{{ col }}/{{ id }}/out.ogg">
-            <a href="{{ site.url }}/musical-code/{{ col }}/{{ id }}/out.ogg" target="_blank">click here</a>
+          <audio controls src="{{ site.url }}/{{ col }}/{{ id }}/out.ogg">
+            <a href="{{ site.url }}/{{ col }}/{{ id }}/out.ogg" target="_blank">click here</a>
           </audio>
         </td>
       </tr>
