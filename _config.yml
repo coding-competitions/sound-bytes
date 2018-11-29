@@ -1,6 +1,7 @@
 title: Sound Bytes
 description: A coding competition
 theme: jekyll-theme-midnight
+url: https://coding-competitions.github.io/sound-bytes
 collections:
   examples:
     output: true

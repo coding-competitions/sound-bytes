@@ -83,20 +83,19 @@ described above, if the moderators of the competition are unable to compile or
 run the program, or if the entry appears to be copied from other entries 
 without any significant modification. 
 
-Entries must be submitted as an issue before Friday, Nov 30, 2018.
+Entries must be submitted as an issue before **Friday, January 4, 2018**.
 
 ## Judging
 
 This is a **subjective** competition, meaning the winner will be decided by 
-popular vote. Any eligible voter is welcome vote on any accepted enter, 
+popular vote. Any eligible voter is welcome vote on any accepted entry, 
 *including their own*. 
 
-Voting method is TBD.
+Votes will be cast via an online poll. A link to the poll will be provided
+when the voting session begins.
 
-Anyone who submitted an entry that was accepted 
-
-The final vote count shall be taken on Friday, Dec 7, 2018. Votes submitted 
-after this date shall not be counted.
+The final vote count shall be taken on **Friday, January 18, 2018**. Votes 
+submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the 
 event of a tie, the entry with the fewer source bytes shall be declared the 
