@@ -1,7 +1,7 @@
 <div class="ghp-hide">
   <em>NOTE:</em> Due to limitations of GitHub's markdown rendering, it is 
   highly recommended that you view this page 
-  <a href="https://coding-competitions.github.io/musical-code/">here</a>.
+  <a href="https://coding-competitions.github.io/sound-bytes/">here</a>.
 </div>
 
 # Musical Code
