@@ -20,32 +20,29 @@ a few lines of code…
 ## Challenge
 
 Write a complete program, in the language of your choice, in **512** bytes or 
-less of source code, the output of which can be interpretted as a raw audio 
+less of source code, the output of which can be interpreted as a raw audio 
 waveform. The output may either be directed to `stdout` or a file name 
 specified by command line parameters. Your program must also terminate by 
 itself after approximately 30 seconds worth of raw data has been produced. 
-If your program relies on external data, libraries, or command line arguments 
-or switches (excluding the filename or wave format parameters) in order to 
-produce the appropriate output, these will be counted toward the 512 byte 
-limit.
+For additional guidelines, see [Golfing](Golfing.md).
 
 The program must be accompanied by a `README.md` file which contains the 
 information required to interpret the waveform, in the following format:
 
     ---
-    layout: { entry }
-    title: { title }
-    author: { github username }
-    lang: { language }
-    len: { total length in bytes }
+    layout: entry
+    title: {{ title }}
+    author: {{ github username }}
+    lang: {{ language }}
+    len: {{ total length in bytes }}
     params:
-      r: { sample rate in Hz }
-      b: { sample size in bits }
-      c: { number of channels: 1 = mono, 2 = stereo }
-      e: { encoding: (si)gned-integer, (un)signed-integer, (fl)oating-point }
+      r: {{ sample rate in Hz }}
+      b: {{ sample size in bits }}
+      c: {{ number of channels: 1 = mono, 2 = stereo }}
+      e: {{ encoding: (si)gned-integer, (un)signed-integer, (fl)oating-point }}
     commands:
-      build: { command needed to build the program (if needed) }
-      run: { command needed to run the program }
+      build: {{ command needed to build the program (if needed) }}
+      run: {{ command needed to run the program }}
     ---
 
     {{ description of the entry in markdown }}
@@ -81,9 +78,10 @@ Contestants may submit multiple entries.
 A submission may be rejected if it fails to satisfy any of the requirements 
 described above, if the moderators of the competition are unable to compile or 
 run the program, or if the entry appears to be copied from other entries 
-without any significant modification. 
+without any significant modification. For additional guidelines, see 
+[Judging](Judging.md).
 
-Entries must be submitted as an issue before **Friday, January 4, 2018**.
+Entries must be submitted as an issue before **Wednesday, September 18, 2019**.
 
 ## Judging
 
@@ -91,21 +89,16 @@ This is a **subjective** competition, meaning the winner will be decided by
 popular vote. Any eligible voter is welcome vote on any accepted entry, 
 *including their own*. 
 
-Votes will be cast via an online poll. A link to the poll will be provided
-when the voting session begins.
+Votes will be cast via an online poll. A link to the poll will be provided when
+the voting session begins.
 
-The final vote count shall be taken on **Friday, January 18, 2018**. Votes 
+The final vote count shall be taken on **Wednesday, September 25, 2019**. Votes
 submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the 
-event of a tie, the entry with the fewer source bytes shall be declared the 
+event of a tie, the entry with the lower golf score shall be declared the 
 winner.
 
 ## Awards
 
-The contestant that submitted the winning entry shall be awarded this ✨shiny✨ 
-badge!
-
-<p align="center">
-  <img alt="badge" src="badge-preview.png">
-</p>
+The contestant that submitted the winning entry shall receive an award.
