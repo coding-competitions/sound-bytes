@@ -1,7 +1,7 @@
 # Scoring in Code Golf
 
 This challenge involves [code golf][2], i.e. the ability to achieve a goal
-using the smallest possible program. Puts an upper limit on the total
+using the smallest possible program. This puts an upper limit on the total
 complexity of a solution, but also frequently pushes the contestants to
 find more interesting solutions that are not obvious if byte count were not
 a concern.
@@ -42,7 +42,7 @@ your entry might be permitted with a note that the language used is
 It is valid to have command-line arguments, compiler switches, or bash-style
 pipes as part of your program. However, any additional command line options
 beyond most basic, default options **must** be specified as part of your entry
-to the competition and **shall** count toward the total source byte count.
+to the competition and shall count toward the total source byte count.
 
 For example, if your `program.js` file is only 128 bytes but in order to run
 correctly in current Node requires the `--experimental-modules` flag, as in

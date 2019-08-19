@@ -19,12 +19,15 @@ a few lines of code…
 
 ## Challenge
 
-Write a complete program, in the language of your choice, in **512** bytes or 
-less of source code, the output of which can be interpreted as a raw audio 
-waveform. The output may either be directed to `stdout` or a file name 
-specified by command line parameters. Your program must also terminate by 
-itself after approximately 30 seconds worth of raw data has been produced. 
-For additional guidelines, see [Golfing](Golfing.md).
+Write a complete program, in the language of your choice, the output of which
+will be interpreted as a raw audio waveform. The output may either be directed
+to `stdout` or a file. Your program must terminate by itself after no less than
+5 seconds and no more than 30 seconds worth of sound data has been produced.
+
+Your program may contain no more than **1024** bytes of source code, (referred
+as its 'golf score'). If the file name is specified in a command line
+parameter, the length of the file name will not be counted toward the golf
+score. For additional guidelines on scoring, see [Golfing](Golfing.md).
 
 The program must be accompanied by a `README.md` file which contains the 
 information required to interpret the waveform, in the following format:
@@ -34,18 +37,23 @@ information required to interpret the waveform, in the following format:
     title: {{ title }}
     author: {{ github username }}
     lang: {{ language }}
-    len: {{ total length in bytes }}
+    score: {{ total golf score in bytes }}
     params:
       r: {{ sample rate in Hz }}
       b: {{ sample size in bits }}
       c: {{ number of channels: 1 = mono, 2 = stereo }}
-      e: {{ encoding: (si)gned-integer, (un)signed-integer, (fl)oating-point }}
+      e: {{ encoding, e.g. (si)gned-integer, (un)signed-integer, (fl)oating-point }}
+      {{ ... other options, if necessary }}
     commands:
       build: {{ command needed to build the program (if needed) }}
       run: {{ command needed to run the program }}
     ---
 
     {{ description of the entry in markdown }}
+
+Note, the parameters described here correlate to the `--rate`, `--bits`,
+`--channels`, and `--encoding` options used by the [SoX utility][SoX]. Other
+options may be used, but will contribute to the total golf score.
 
 If the output of the program is non-deterministic (e.g. randomly generated), 
 be sure to make note of that in the description. Refer to the examples below 
@@ -54,7 +62,7 @@ for more information.
 ### Utilities
 
 For consistency, all entries will be evaluated with the 
-[SoX utility](http://sox.sourceforge.net/). This may be installed locally on 
+[SoX utility][SoX]. This may be installed locally on 
 most systems, *or* if you prefer not to install it locally, you can use the 
 provided [Docker image](util/sox/README.md).
 
@@ -101,4 +109,6 @@ winner.
 
 ## Awards
 
-The contestant that submitted the winning entry shall receive an award.
+The contestant that submitted the winning entry shall receive an award (TBD).
+
+ [SoX]: http://sox.sourceforge.net/
