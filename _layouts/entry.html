@@ -20,10 +20,11 @@ layout: default
   <p class="author">by <a href="https://github.com/{{ page.author }}">{{ page.author }}</a></p>
 {% endif %}
 
-<h2>
-  Listen:
+<h2>{{ page.lang }} &mdash; {{ page.score }}</h2>
+<h3>
+  Listen
   <audio controls src="out.ogg"><a href="out.ogg" target="_blank">click here</a></audio>
-</h2>
+</h3>
 
 {{content}}
 
