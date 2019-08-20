@@ -1,10 +1,11 @@
 # Judging
 
-This contest is curated and judges have will exercise discretion when approving
-entries. Entries will be rejected if they do not meet the criteria specified
-in the challenge. Even if an entry does satisfy the original requirements, it
-may still be rejected based on the judge's discretion, or the judge may request
-modifications be made to the entry before accepting it.
+This competition is curated, which means that judges shall review entries
+before approving or rejecting them. Entries will be rejected if they do not
+meet the criteria specified in the [challenge][1]. Even if an entry does
+satisfy the original requirements, it may still be rejected based on the
+judge's discretion, or the judge may request modifications be made to the
+entry before accepting it.
 
 ## Forbidden Loopholes
 
@@ -40,3 +41,5 @@ that attempt to exploit any of the following loopholes may be rejected.
 - Using languages or platforms that are not generally available. E.g. a program
   written in MATLAB can only be evaluated if one has purchased a license. In
   this case, however, the entry may be rewritten for Octave and resubmitted. 
+
+ [1]: README#Challenge

@@ -1,6 +1,6 @@
 # Scoring in Code Golf
 
-This challenge involves [code golf][2], i.e. the ability to achieve a goal
+This challenge involves [code golf][1], i.e. the ability to achieve a goal
 using the smallest possible program. This puts an upper limit on the total
 complexity of a solution, but also frequently pushes the contestants to
 find more interesting solutions that are not obvious if byte count were not
@@ -94,9 +94,29 @@ Alternatively, you may submit a program written for the [`dotnet script`][4]
 tool without a project file, but you must specify the tool name as part of the
 language of the submission, e.g. `lang: C# (dotnet script)`.
 
-###
+### JavaScript
 
- [1]: https://esolangs.org/wiki/HQ9+
- [2]: https://en.wikipedia.org/wiki/Code_golf
+When submitting a JavaScript entry, unless otherwise specified in the
+submission, the solution will be assumed to use the [Node.js][5] interpreter.
+
+Non-Node.js but they must be specified as part of the name of the language of
+the submission, e.g. `lang: JavaScript (ShellJs)` for [ShellJs][6].
+
+### APL
+
+When submitting an APL entry, unless otherwise specified in the submission, the
+entry will be assumed to use the [GNU APL][7] interpreter, which in turn
+requires text files to be written with UTF-8 encoding with APL characters in
+the Unicode range (most of them in the U+2200 - U+23FF range).
+
+Non-GNU APL entries are permitted, but the dialect of APL being used must be
+specified in the name of the language of the submission. If a non-standard
+code page is used, that must also be specified as part of the language of the
+submission e.g. `lang: Dyalog APL (classic)`
+
+ [1]: https://en.wikipedia.org/wiki/Code_golf
  [3]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new
  [4]: https://github.com/filipw/dotnet-script
+ [5]: https://nodejs.org/en/
+ [6]: http://documentup.com/shelljs/shelljs
+ [7]: https://www.gnu.org/software/apl/apl.html
