@@ -75,5 +75,28 @@ For example, if your source code file must named `Hello World\!` and contains
 bash script `echo $0`, the total score shall be 20 (7 bytes for code, plus 13
 bytes for required file names).
 
+## Language/Platform-Specific Considerations
+
+The following guidelines allow for additional considerations for specific
+languages or platforms, but may be applied at the judge's discretion, depending
+on the nature of the challenge.
+
+### .NET Core
+
+When submitting a .NET core entry using the `dotnet run` command, you may
+discount the associated `.csproj` / `.fsproj` / `.vbproj` _only_ if it was
+created using the [`dotnet new`][3] command from one of the built-in templates
+and not modified in any way. Additionally, you must specify the name of the 
+template used as part of the language of the submission, e.g.
+`lang: C# (console)`.
+
+Alternatively, you may submit a program written for the [`dotnet script`][4]
+tool without a project file, but you must specify the tool name as part of the
+language of the submission, e.g. `lang: C# (dotnet script)`.
+
+###
+
  [1]: https://esolangs.org/wiki/HQ9+
  [2]: https://en.wikipedia.org/wiki/Code_golf
+ [3]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new
+ [4]: https://github.com/filipw/dotnet-script

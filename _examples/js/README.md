@@ -3,7 +3,7 @@ layout: entry
 title: Constant spectrum melody
 author: pswg
 lang: JavaScript
-len: 294
+score: 294
 params:
   r: 44100
   b: 32

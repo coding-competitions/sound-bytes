@@ -2,15 +2,14 @@
 layout: entry
 title: Crickets from Outer Space
 author: pswg
-lang: C#
-len: 399
+lang: C# (console)
+score: 399
 params:
   r: 44100
   b: 16
   c: 2
   e: un
 commands:
-  build: dotnet new console
   run: dotnet run
 ---
 
@@ -18,9 +17,6 @@ Some sweet serenade by spectral stenopelmata.
 
 This is an example submission written in C#.
 
-> **Special note regarding .NET Core entries**: If you'd submit an entry using 
-> .NET Core, the associated `*proj` files will not be counted toward the 
-> source byte total as long as they are created from the 
-> [default templates][1] and not modified in any way.
+> See special scoring considerations for [.NET Core][1] entries.
 
-[1]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore21
+ [1]: ../../Golfing#%2EßNET%20Core
