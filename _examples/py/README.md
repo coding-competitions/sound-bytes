@@ -16,3 +16,5 @@ commands:
 Practicing the scales on a [Karplus-Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis) piano.
 
 This is an example submission written in Python 3.
+
+> Note: this example uses a pseudo-random number generator for white noise.
