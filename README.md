@@ -4,7 +4,7 @@
   <a href="https://coding-competitions.github.io/sound-bytes/">here</a>.
 </div>
 
-# Musical Code
+# Sound Bytes
 
 You just started work at Goofletronics™, a company that makes electronic toys and 
 gadgets. The project you're working is very late in development, but you've just 
