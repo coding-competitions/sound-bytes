@@ -13,10 +13,10 @@ commands:
   run: dotnet run
 ---
 
-Some sweet serenade by spectral stenopelmata.
+Some sweet serenade by spectral [stenopelmata](https://en.wikipedia.org/wiki/Jerusalem_cricket).
 
 This is an example submission written in C#.
 
 > See special scoring considerations for [.NET Core][1] entries.
 
- [1]: ../../Golfing#%2EßNET%20Core
+ [1]: ../../Golfing#%2ENET%20Core
