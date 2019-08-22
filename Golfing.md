@@ -114,9 +114,16 @@ specified in the name of the language of the submission. If a non-standard
 code page is used, that must also be specified as part of the language of the
 submission e.g. `lang: Dyalog APL (classic)`
 
+### Docker
+
+When submitting a Docker entry, your Dockerfile's base image and any other
+referenced images are considered to be external libraries, with the exception
+of [`scratch`][8].
+
  [1]: https://en.wikipedia.org/wiki/Code_golf
  [3]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new
  [4]: https://github.com/filipw/dotnet-script
  [5]: https://nodejs.org/en/
  [6]: http://documentup.com/shelljs/shelljs
  [7]: https://www.gnu.org/software/apl/apl.html
+ [8]: https://hub.docker.com/_/scratch
