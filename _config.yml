@@ -7,3 +7,7 @@ collections:
     output: true
     lang: true
     len: true
+  entries:
+    output: true
+    lang: true
+    len: true
