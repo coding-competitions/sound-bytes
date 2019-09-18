@@ -3,7 +3,7 @@ layout: entry
 title: Channel Surfing in the Apocalypse
 author: Grothe
 lang: C# (console)
-score: 189
+score: 186
 params:
   r: 8200
   b: 16
