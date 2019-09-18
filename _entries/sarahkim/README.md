@@ -2,7 +2,7 @@
 layout: entry
 title: Tetris Theme Song
 author: Sarah Kim
-lang: javascript
+lang: JavaScript
 score: 672
 params:
   r: 44100
