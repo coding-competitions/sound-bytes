@@ -4,6 +4,8 @@
   <a href="https://coding-competitions.github.io/sound-bytes/">here</a>.
 </div>
 
+[View Entries](Entries.md)
+
 # Sound Bytes
 
 You just started work at Goofletronics™, a company that makes electronic toys and 
@@ -83,7 +85,11 @@ others.
 
 Contestants may submit multiple entries.
 
-Entries must be submitted as an issue before **Wednesday, September 18, 2019**.
+Contestants may modify their own entries after they've been accepted or
+rejected
+
+Entries must be submitted as a pull request on or before
+**Wednesday, September 25, 2019**.
 
 ## Judging
 
@@ -98,7 +104,7 @@ popular vote. Votes will be cast via an online poll. A link to the poll will be
 provided when the voting session begins. Any eligible voter is welcome vote on
 any accepted entry, *including their own*.
 
-The final vote count shall be taken on **Wednesday, September 25, 2019**. Votes
+The final vote count shall be taken on **Friday, September 27, 2019**. Votes
 submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the 
