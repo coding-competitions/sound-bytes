@@ -8,7 +8,7 @@ for (i = 0; i < tetris.length; i++) {
     if (n > 0) for (var x = 0; x < l; x++){
         arr[x] = Math.random();
     }
-    for (t = 0; t < 18000; t++) {
+    for (t = 0; t < 20000; t++) {
         var y = arr[t % l];
         process.stdout.write(Buffer.from(Float32Array.of(y).buffer));
         arr[t % l] = (arr[t % l] + arr[(t + 1) % l]) / 2 * .998
