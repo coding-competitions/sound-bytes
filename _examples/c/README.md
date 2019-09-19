@@ -22,7 +22,7 @@ This is an example submission written in C.
 > Scoring Note: 122 bytes code + 4 bytes flags = 126 total score
 
 `main.c`
-```cs
+```c
 
 {% include_relative main.c %}
 
