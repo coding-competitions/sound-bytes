@@ -18,3 +18,10 @@ Practicing the scales on a [Karplus-Strong](https://en.wikipedia.org/wiki/Karplu
 This is an example submission written in Python 3.
 
 > Note: this example uses a pseudo-random number generator for white noise.
+
+`main.py`
+```cs
+
+{% include_relative main.py %}
+
+```

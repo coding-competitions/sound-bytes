@@ -16,3 +16,10 @@ commands:
 A [constant spectrum melody](https://en.wikipedia.org/wiki/Constant_spectrum_melody) generator.
 
 This is an example submission written in JavaScript / Node.js.
+
+`index.js`
+```js
+
+{% include_relative index.js %}
+
+```

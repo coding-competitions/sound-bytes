@@ -19,4 +19,11 @@ This is an example submission written in C#.
 
 > See special scoring considerations for [.NET Core][1] entries.
 
+`Program.cs`
+```cs
+
+{% include_relative Program.cs %}
+
+```
+
  [1]: ../../Golfing#%2ENET%20Core
