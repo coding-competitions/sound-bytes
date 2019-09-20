@@ -3,7 +3,7 @@ layout: entry
 title: Good Eats Theme Song
 author: djscheuf
 lang: JavaScript
-score: 517
+score: 532
 params:
   r: 44100
   b: 32
@@ -14,3 +14,10 @@ commands:
 ---
 
 A loose riff on the Good Eats theme song. Been watching too much Good Eats Reloaded recently :)
+
+`index.js`
+```js
+
+{% include_relative index.js %}
+
+```
