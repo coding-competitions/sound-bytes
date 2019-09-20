@@ -14,3 +14,10 @@ commands:
 ---
 
 I liked the Harpsicord sound, so I thought something a little minor would be welcome. Short Riff on the B-flat Minor Arpeggio
+
+`index.js`
+```js
+
+{% include_relative index.js %}
+
+```
