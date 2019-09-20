@@ -3,7 +3,7 @@ layout: entry
 title: Song of Storms
 author: djscheuf
 lang: JavaScript
-score: 672
+score: 580
 params:
   r: 44100
   b: 32
