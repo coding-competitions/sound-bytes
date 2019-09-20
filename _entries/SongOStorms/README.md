@@ -14,3 +14,10 @@ commands:
 ---
 
 The Song of Storms from The Legend of Zelda: Ocarina of Time.
+
+`index.js`
+```js
+
+{% include_relative index.js %}
+
+```
