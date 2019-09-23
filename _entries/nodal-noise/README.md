@@ -15,9 +15,7 @@ commands:
 
 `run.sh`
 ```sh
-
 {% include_relative run.sh %}
-
 ```
 
 Uses Node.js parse errors and sh pipes to generate 'noise' from the pits of hell.  
