@@ -13,13 +13,13 @@ commands:
   run: /bin/sh run.sh
 ---
 
+Uses Node.js parse errors and sh pipes to generate 'noise' from the pits of hell.  
+Contains no actual JavaScript!
+
 `run.sh`
 ```sh
 {% include_relative run.sh %}
 ```
-
-Uses Node.js parse errors and sh pipes to generate 'noise' from the pits of hell.  
-Contains no actual JavaScript!
 
 # Explanation
 
