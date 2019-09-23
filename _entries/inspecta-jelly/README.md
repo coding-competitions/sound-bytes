@@ -3,7 +3,7 @@ layout: entry
 title: Inspecta Jelly
 author: pswg
 lang: Jelly
-score: 672
+score: 148
 params:
   r: 44100
   b: 32
