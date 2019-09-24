@@ -14,3 +14,10 @@ commands:
 ---
 
 Enjoy, but not loudly.
+
+`Program.cs`
+```cs
+
+{% include_relative Program.cs %}
+
+```
