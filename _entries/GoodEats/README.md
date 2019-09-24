@@ -3,7 +3,7 @@ layout: entry
 title: Good Eats Theme Song
 author: djscheuf
 lang: JavaScript
-score: 532
+score: 517
 params:
   r: 44100
   b: 32

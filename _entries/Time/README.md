@@ -3,7 +3,7 @@ layout: entry
 title: Song of Time
 author: djscheuf
 lang: JavaScript
-score: 629
+score: 614
 params:
   r: 44100
   b: 32

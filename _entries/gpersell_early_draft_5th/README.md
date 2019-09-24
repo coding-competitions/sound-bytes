@@ -3,7 +3,7 @@ layout: entry
 title: Early Draft of the 5th
 author: gpersell
 lang: C# (console)
-score: 548
+score: 534
 params:
   r: 41000
   b: 16

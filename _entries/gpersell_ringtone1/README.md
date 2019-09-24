@@ -3,7 +3,7 @@ layout: entry
 title: New Ringtone 1
 author: gpersell
 lang: C# (console)
-score: 336
+score: 322
 params:
   r: 4000
   b: 16

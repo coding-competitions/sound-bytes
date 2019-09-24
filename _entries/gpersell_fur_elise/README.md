@@ -3,7 +3,7 @@ layout: entry
 title: Early Draft of Für Elise
 author: gpersell
 lang: C# (console)
-score: 541
+score: 527
 params:
   r: 54000
   b: 16
