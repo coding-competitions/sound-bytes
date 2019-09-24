@@ -3,7 +3,7 @@ layout: entry
 title: Tetris Theme Song
 author: Sarah Kim
 lang: JavaScript
-score: 672
+score: 657
 params:
   r: 44100
   b: 32
@@ -12,3 +12,10 @@ params:
 commands:
   run: node .
 ---
+
+`index.js`
+```js
+
+{% include_relative index.js %}
+
+```
