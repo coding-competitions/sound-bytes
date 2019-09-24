@@ -20,7 +20,7 @@ This is an example submission written in Python 3.
 > Note: this example uses a pseudo-random number generator for white noise.
 
 `main.py`
-```cs
+```py
 
 {% include_relative main.py %}
 
