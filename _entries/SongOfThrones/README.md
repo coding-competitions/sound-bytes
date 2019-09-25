@@ -1,4 +1,19 @@
 
+---
+layout: entry
+title: Song of Thrones
+author: Ken Gros
+lang: Chrome (JavaScript + WebAPI)
+score: 989
+---
+
+> Editor's Note: This entry produces audio output directly as well as a file, however, the audio 
+> file produced does not exactly match the audio file. Also, the audio file must be manually 
+> converted to ogg / pcm and the resulting file. For technical reasons, only the audio file 
+> can be shown here.
+
+> Readers are encouraged to run it themselves, but your mileage may vary.
+
 <h1 align="center">
   <br>
   <img src="./img/codeChallangeLogo.png"></a>
@@ -16,11 +31,6 @@
 |Author         |Title          |Language       |Platform       |Size           |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |Ken Gros       |Song Of Thrones|Javascript/HTML|Google Chrome  |989b           |
-
-### Sample FAQ
-|Rate           |Frequency Range|Channels       |Encoding       |File Size      |
-| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-|48000Hz        |260Hz - 390Hz  |2 Channel      |webm           |187kb          |
 
 ## Technique
 
@@ -55,7 +65,7 @@ The array of `notes` is built with the above function.
 
 <img src="./img/SC2.png"></a>
 
-In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step is complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
+In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step is complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file.
 
 <img src="./img/DownloadedFile.png"></a>
 
@@ -65,7 +75,7 @@ In the next phase of the primary function the chunks of audio are combined with 
 
   <img src="./img/GolfScore.png"></a>
 
-  ## How To
+## How To
 
 * Navigate to `a.html`
 * Open with Chrome browser
