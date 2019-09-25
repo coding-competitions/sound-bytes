@@ -13,3 +13,10 @@ commands:
   compile: javac StdAudio.java
   run: java StdAudio
 ---
+
+`StdAudio.java`
+```js
+
+{% include_relative StdAudio.java %}
+
+```
