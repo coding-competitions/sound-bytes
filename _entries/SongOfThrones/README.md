@@ -7,8 +7,8 @@ score: 989
 ---
 
 > Editor's Note: This entry produces audio output directly as well as a file. The audio file must 
-> then be manually converted to ogg / pcm and the resulting file produced does not exactly the
-> original. For technical reasons, only the converted audio file can be shown here.
+> then be manually converted to ogg / pcm and the resulting file produced does not exactly match
+> the original. For technical reasons, only the converted audio file can be shown here.
 
 > Readers are encouraged to run the original for themselves, but your mileage may vary.
 
