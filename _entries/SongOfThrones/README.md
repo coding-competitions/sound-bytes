@@ -1,4 +1,3 @@
-
 ---
 layout: entry
 title: Song of Thrones
