@@ -104,7 +104,7 @@ popular vote. Votes will be cast via an online poll. A link to the poll will be
 provided when the voting session begins. Any eligible voter is welcome vote on
 any accepted entry, *including their own*.
 
-The final vote count shall be taken on **Friday, September 27, 2019**. Votes
+The final vote count shall be taken on **Monday, September 30, 2019**. Votes
 submitted after this date shall not be counted.
 
 The entry that receives the most votes shall be declared the winner. In the 
